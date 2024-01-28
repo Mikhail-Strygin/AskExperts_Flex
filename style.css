@@ -102,14 +102,15 @@ ul {
 }
 .hero__row {
   display: flex;
-  gap: 31px;
+  /* gap: 31px; */
   /* align-items: center; */
   flex-wrap: wrap;
   /* justify-content: flex-end; */
 }
 .hero__image {
   width: 55%;
-  height: max-content;
+  position: relative;
+  right: -170px;
 }
 .hero__booking {
   margin-bottom: 271px;
@@ -131,6 +132,7 @@ ul {
   padding: 48px;
   padding-top: 237px;
   max-width: 388px;
+  box-sizing: border-box;
 }
 .advantages__heading {
   font-size: 25px;
