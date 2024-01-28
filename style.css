@@ -1,9 +1,10 @@
 :root {
   --color-yellow: #ffcc4a;
   --color-green: #4eaf4e;
-  --color-dark: #151515;
+  --color-dark: rgba(27, 27, 27, 0.91);
   --color-gray: #ebebeb;
   --color-white: #fff;
+  --color-black: #151515;
 }
 body,
 * {
@@ -28,7 +29,7 @@ ul {
   border: 1px solid red;
 }
 .header {
-  background-color: rgba(27, 27, 27, 0.91);
+  background-color: var(--color-dark);
   padding: 40px;
 }
 .header__row {
@@ -89,6 +90,7 @@ ul {
 .hero__label {
   display: inline-block;
   margin-bottom: 19px;
+  margin-top: 263px;
 }
 .hero__heading {
   font-size: 50px;
@@ -97,22 +99,6 @@ ul {
   margin-top: 20px;
   margin-bottom: 29px;
 }
-/* .hero__row {
-  background-image: url(img/Photo2.png);
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 260px 0;
-} */
-/* .hero__row {
-  position: relative;
-  padding: 260px 0;
-}
-.hero__image {
-  position: absolute;
-  top: 0;
-  right: -420px;
-} */
 .hero__row {
   display: flex;
   gap: 210px;
@@ -123,12 +109,22 @@ ul {
 .hero__image {
   width: 40%;
 }
+.hero__booking {
+  margin-bottom: 271px;
+}
+.advantages {
+  position: relative;
+  top: -100px;
+  left: 0;
+}
 .advantages__row {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .advantages-card {
+  display: inline-block;
   border-radius: 20px;
   padding: 48px;
   padding-top: 237px;
@@ -136,12 +132,47 @@ ul {
 }
 .advantages__heading {
   font-size: 25px;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 .advantages__text {
-  margin-top: 10px;
-  margin-bottom: 15px;
+  display: inline-block;
 }
 .advantages__link {
+  display: inline-block;
   padding: 16px 31px;
   border-radius: 55px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.advantages__card-services {
+  background-image: url(img/Photo123.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.advantages__card-approach {
+  background-image: url(img/Photo4.png);
+  background-size: cover;
+}
+.advantages__card-solution {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  padding-top: 0;
+  overflow: hidden;
+}
+.advantages__link_white {
+  background-color: var(--color-white);
+}
+.advantages__link_black {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+.advantages__card-image {
+  display: inline-block;
+  max-width: 405px;
+  transform: translateY(-15%);
+}
+.advantages__heading_position {
+  position: relative;
+  top: -21px;
 }
