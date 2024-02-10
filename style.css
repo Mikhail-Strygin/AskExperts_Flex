@@ -276,3 +276,99 @@ ul {
   font-style: 25px;
   font-weight: bold;
 }
+.myproject {
+  background: url(img/bg4.png) center/cover no-repeat;
+  color: white;
+  padding-top: 151px;
+  padding-bottom: 151px;
+}
+.myproject__work {
+  display: inline-block;
+  width: 1200px;
+}
+.label_green {
+  background-color: #4eaf4e;
+  color: var(--color-white);
+}
+.myproject__text {
+  font-size: 45px;
+  font-family: "Cabin";
+  display: inline-block;
+  max-width: 324px;
+  margin-top: 8px;
+}
+.myproject__link {
+  display: inline-block;
+  font-weight: bold;
+  background-color: #ffcc4a;
+  text-decoration: none;
+  list-style: none;
+  padding: 16px 38px;
+  color: #000;
+  border-radius: 42px;
+  margin-left: 733px;
+}
+.myproject__image {
+  position: relative;
+}
+.myproject__image-bosts {
+  border-radius: 25px;
+}
+.myproject__image-nav {
+  margin-bottom: 50px;
+  width: 366px;
+  background: url(img/Photo1_1.png) center/cover no-repeat;
+  border-radius: 25px;
+  padding: 35px 37px;
+}
+.myproject__image-promo {
+  width: 293px;
+  padding: 19px 27px;
+  background-color: rgba(18, 18, 18, 0.75);
+  border-radius: 15px;
+}
+.myproject__image-text {
+  font-family: "Cabin";
+  font-size: 25px;
+  font-weight: 600;
+  display: block;
+}
+.myproject_yellow {
+  color: #ffcc4a;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+}
+.myproject__image-img {
+  transform: translateX(180px);
+}
+.myproject_position {
+  margin-top: 117px;
+  margin-bottom: 4px;
+}
+.myproject_width-784 {
+  max-width: 784px;
+  position: absolute;
+  top: 0;
+  left: 34.5%;
+}
+.myproject_posabsolut-one {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+.myproject_posabsolut-two {
+  position: absolute;
+  top: 35%;
+  left: 69.3%;
+}
+.myproject_posabsolut-three {
+  position: absolute;
+  top: 69.5%;
+  left: 35%;
+}
+.myproject_posabsolut-four {
+  position: absolute;
+  top: 69.5%;
+  left: 69.3%;
+}
