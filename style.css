@@ -467,3 +467,79 @@ ul {
   margin-bottom: 10px;
   display: inline-block;
 }
+
+.footer {
+  padding-top: 126px;
+  background: url(img/footer_bg.png);
+}
+.footer__logo {
+  width: 352px;
+  border-right: 1px solid #707070;
+  display: inline-block;
+  vertical-align: top;
+  height: 236px;
+}
+.footer__logo-border {
+  width: 200px;
+}
+.footer__com {
+  color: white;
+  font-family: "Cabin, sans-serif";
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 31px;
+}
+.footer__lists {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 842.5px;
+  /* margin-left: 166px; */
+}
+.footer__product {
+  list-style-type: disc;
+  color: #fff;
+  display: inline-block;
+  vertical-align: top;
+}
+.footer__image {
+  display: block;
+  margin-top: 11px;
+  margin-bottom: 10px;
+}
+.footer__label {
+  font-size: 20px;
+  font-style: "Cabin";
+  font-weight: 600;
+}
+.footer__product-li {
+  list-style: none;
+  margin-bottom: 32px;
+}
+.footer_mg99 {
+  margin-right: 99px;
+  margin-left: 99px;
+}
+.footer_wd {
+  width: 214px;
+}
+.footer__logo-text {
+  color: #fff;
+}
+.footer__end {
+  text-align: center;
+  margin-top: 56px;
+  border-top: 1px solid #707070;
+  padding-bottom: 26px;
+}
+.footer__end-text {
+  color: #fff;
+  padding-top: 20px;
+}
+.footer__product-link {
+  color: #181818;
+  font-size: 18px;
+  padding: 15px 23px;
+  border-radius: 42px;
+  background-color: #fff;
+  font-weight: 600;
+}
